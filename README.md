@@ -1,1 +1,3 @@
-# tictactoe
+# TicTacToe
+
+## Just another TicTacToe game
