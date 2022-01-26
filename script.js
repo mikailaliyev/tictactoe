@@ -4,6 +4,7 @@ document.querySelector(".restartButton").addEventListener("click", () => {
   history.go(0);
 });
 function clicked(event) {
+  document.getElementById("intro-text").style.visibility = "hidden";
   if (count % 2 === 0) {
     event.target.innerText = "X";
     count++;
