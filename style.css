@@ -6,6 +6,8 @@ body {
   box-sizing: border-box;
   flex-direction: column;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -63,6 +65,11 @@ p {
   .main {
     margin-bottom: 25%;
   }
+
+  #intro-text {
+    font-size: 1.8rem;
+  }
+
   .winner {
     position: absolute;
     display: flex;
