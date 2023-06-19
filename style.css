@@ -55,6 +55,10 @@ p {
   font-size: 1em;
 }
 
+.restartButton:hover {
+  box-shadow: 0 0 10px black;
+}
+
 @media only screen and (max-width: 600px) {
   .winner {
     position: absolute;
